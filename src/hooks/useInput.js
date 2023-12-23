@@ -11,7 +11,7 @@ function useInput(defaultValue = '') {
     setValue(defaultValue);
   }
 
-  return [value, clearValue, setValue];
+  return [value, handleValueChange, clearValue, setValue];
 }
 
 export default useInput;

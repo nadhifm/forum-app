@@ -82,7 +82,7 @@ function App() {
       <div>
         <header>
           <LoadingBar
-            color="#28B485"
+            color="#9EC8B9"
             progress={loadingBar}
             onLoaderFinished={() => dispatch(hideLoadingBarActionCreator())}
           />
